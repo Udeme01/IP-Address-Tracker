@@ -30,6 +30,9 @@ const App = () => {
         console.trace(error);
       }
     };
+    alert(
+      "Turn on location feature on your device give app permission to access your current location."
+    );
     getInitialData();
   }, [API_KEY]);
 
